@@ -1,0 +1,29 @@
+// BlogPage.scss
+.blog-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .blog-post {
+    display: flex;
+    width: calc(50% - 10px); // Chia đôi chiều rộng, trừ đi khoảng cách
+    border: 1px solid #ccc;
+    padding: 10px;
+  
+    .blog-image {
+      width: 150px;
+      height: auto;
+      margin-right: 10px;
+    }
+  
+    .blog-content {
+      flex: 1;
+    }
+  }
+  

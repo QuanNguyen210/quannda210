@@ -1,0 +1,11 @@
+.iconUser {
+  background-color: beige;
+  color: black;
+  margin: 5px 10px 0 20px;
+  border: 1px solid black;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}

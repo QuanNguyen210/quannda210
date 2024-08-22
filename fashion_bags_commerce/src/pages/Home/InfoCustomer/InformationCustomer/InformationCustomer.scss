@@ -1,0 +1,68 @@
+.infor-custom {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .infor-custom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    .infor-custom-lable-name {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 200px;
+      font-weight: 600;
+    }
+    .infor-custom-input {
+      width: 100%;
+      .infor-custom-input-item {
+        height: 40px;
+        width: 100%;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .btn-back {
+    color: black;
+    padding: 5px 20px;
+    border-radius: 100px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+  .btn-update {
+    color: #ffffff;
+    width: 400px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    background-color: orange;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background-color: darkorange;
+    }
+  }
+}
+.thongTinKhachHang {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px 5px rgba(0.5, 0.1, 0.1, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 1200px;
+}

@@ -1,0 +1,76 @@
+/* Trong file styles.css */
+
+.headerStyle {
+  border-left     : 270px;
+  color           : #fff;
+  height          : auto;
+  padding-inline  : 0;
+  margin          : 0;
+  background-color: white;
+
+}
+
+.contentStyle1 {
+  color           : black;
+  background      : white;
+  background-image: url(https://i.imgur.com/fIkdNV4.png);
+  border-radius   : 12px;
+  height          : 100%;
+}
+
+.contentStyle {
+  color           : black;
+  background      : white;
+  background-image: url(https://i.imgur.com/fIkdNV4.png);
+  border-radius   : 12px;
+  height          : 100%;
+}
+
+.footerStyle {
+  margin          : 0 10px 10px 20px;
+  border-left     : 270px;
+  color           : black;
+  background-color: #fff;
+}
+
+.layoutContent {
+  margin-left     : 270px;
+  flex-grow       : 1;
+  background-color: white;
+}
+
+.active-status {
+  background-color: rgb(57, 209, 57);
+  /* Màu xanh cho trạng thái 'Hoạt động' */
+  color           : white;
+  font-size       : 12pt;
+  border-radius   : 32px;
+  padding         : 10px 10px 10px 10px;
+}
+
+.inactive-status {
+  background-color: red;
+  /* Màu đỏ cho trạng thái 'Không hoạt động' và mặc định */
+  color           : white;
+  font-size       : 12pt;
+  border-radius   : 32px;
+  padding         : 10px 10px 10px 10px;
+}
+
+.vang-status {
+  background-color: rgb(229, 239, 85)(238, 255, 0);
+  /* Màu đỏ cho trạng thái 'Không hoạt động' và mặc định */
+  color           : white;
+  font-size       : 12pt;
+  border-radius   : 32px;
+  padding         : 10px 10px 10px 10px;
+}
+
+.other_status {
+  background-color: rgb(90, 90, 88);
+  color           : white;
+  font-size       : 12pt;
+  border-radius   : 32px;
+  padding         : 10px 10px 10px 10px;
+
+}

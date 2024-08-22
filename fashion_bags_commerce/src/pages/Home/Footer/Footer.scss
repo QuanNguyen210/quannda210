@@ -1,0 +1,56 @@
+// Variables
+// $footer-background-color: #655656;
+$footer-text-color: white;
+$footer-padding: 40px;
+
+.footer {
+  // background-color: $footer-background-color;
+  color: $footer-text-color;
+  padding: $footer-padding 0;
+  background: url(https://i.imgur.com/u7vTdrF.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // opacity: 0.4;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    opacity: 1;
+
+    .footer-column {
+      flex: 1;
+      padding: 0 20px;
+
+      h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin-bottom: 8px;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+  }
+}

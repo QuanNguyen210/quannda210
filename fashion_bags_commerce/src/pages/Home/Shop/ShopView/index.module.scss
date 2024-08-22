@@ -1,0 +1,72 @@
+.price {
+  color: rgb(141, 27, 27);
+  font-size: 18pt;
+
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.productTitle {
+  font-size: 18pt;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: normal inherit;
+  color: black;
+}
+.scrollableList {
+  display: flex;
+  flex-wrap: wrap;
+
+  // gap: 70px; /* Khoảng cách giữa các sản phẩm */
+  // max-height: 1100px; /* Đặt chiều cao tối đa của vùng hiển thị danh sách */
+  // overflow-y: auto; /* Tạo thanh cuộn khi nội dung vượt quá kích thước */
+}
+.producItem {
+  margin-bottom: 20px;
+  margin: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 20px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  color: green;
+}
+
+.contentImage {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+
+.line_col {
+  background-color: gold;
+  border-radius: 12px;
+  margin: 0 10px;
+  width: 40px;
+  border: none;
+}
+.line_col:hover {
+  color: white;
+}
+.sortTitle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  // color: rgb(215, 101, 101);
+  color: black;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.listSanPham {
+  margin: 0 8%;
+}
+.pagination {
+  text-align: center;
+}
+.hovered {
+  /* Thêm hiệu ứng hover tại đây, ví dụ đổi màu nền */
+  background-color: pink;
+  /* Thêm các thuộc tính khác cho hiệu ứng hover nếu cần */
+}

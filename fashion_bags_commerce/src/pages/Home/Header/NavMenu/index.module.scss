@@ -1,0 +1,155 @@
+.navContent {
+  // padding-top: 20px;
+  background-color: white;
+  position: fixed; /* Đặt menu ở vị trí cố định */
+  top: 0; /* Đặt vị trí từ đỉnh trang (ở vị trí top) */
+  width: 100%; /* Đảm bảo menu có chiều rộng bằng 100% của trang */
+  z-index: 1000; /* Đặt z-index để đảm bảo menu hiển thị trên các phần tử khác */
+  background-color: #fff;
+
+  .centeredMenu {
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    width: 100%; /* Chiều rộng 90% của navMenu */
+    margin: 0 auto;
+    .menu {
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      // height: 120px;
+      width: 100%;
+      // margin: 10px 0;
+      padding: 0;
+      background-color: gold;
+
+      .ant-menu-title-content {
+        font-size: 23px;
+      }
+    }
+  }
+}
+
+.submenu {
+  // color: GRAY;
+  font-weight: 350;
+  font-size: 25px;
+  padding: 15px 5px;
+  margin: 0px 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  // background-color: blue;
+  color: white;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+  &:hover {
+    // background-color: rgb(213, 207, 207);
+    background-color: white;
+    color: red;
+    border-radius: 6px;
+    padding: 5px 5px;
+  }
+}
+// .submenu:hover {
+//   background-color: red;
+//   color: white;
+//   border-radius: 6px;
+// }
+
+//////////////////////
+.icon {
+  margin: 10px 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.toolRight {
+  display: flex;
+  // margin-top: 100px;
+
+  .profile {
+    display: flex;
+    margin: 0 40px 0px 0px;
+
+    .login {
+      display: flex;
+      margin: 5px 0 0 25px;
+      align-items: center;
+      .horizontalLogin {
+        display: flex; /* Sử dụng mô hình flexbox */
+        // padding-left: 0px;
+        // margin: 0px auto;
+      }
+
+      .horizontalLogin li {
+        display: inline-block;
+        margin: 0 10px;
+
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: black;
+          &:hover {
+            color: white;
+            background-color: gold;
+          }
+        }
+      }
+    }
+  }
+}
+.cartIcon {
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: beige;
+  color: black;
+  &:hover {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    color: black;
+  }
+}
+.cart {
+  padding-top: 10px;
+}
+
+.userProfileScss {
+  margin-left: 200px;
+}
+.iconSearch {
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  margin: 5px 0 0 10px;
+  &:hover {
+    color: white;
+  }
+}
+
+.iconUser {
+  font-size: 30px;
+  background-color: #87d068;
+  margin: 10px 0;
+}
+
+.iconCartUser {
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: beige;
+  color: black;
+  &:hover {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    color: black;
+  }
+}
+
+//////////////

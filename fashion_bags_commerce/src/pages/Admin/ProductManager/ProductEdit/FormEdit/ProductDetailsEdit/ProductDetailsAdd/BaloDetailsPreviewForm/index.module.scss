@@ -1,0 +1,15 @@
+.titleInfo {
+  margin-left: 50px;
+}
+.form {
+  margin: 10px;
+}
+.upload {
+  padding: 10px;
+}
+.dragger {
+  padding-left: 10px;
+}
+.lastDrawer {
+  z-index: 1001; /* Sử dụng một giá trị lớn hơn so với các Drawer/Modal khác */
+}

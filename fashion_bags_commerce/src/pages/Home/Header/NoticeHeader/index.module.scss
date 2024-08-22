@@ -1,0 +1,29 @@
+.carouselHeader {
+  height: 40px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  // background-color: rgb(99, 240, 240);
+
+  background-color: yellow;
+
+  text-align: center;
+  color: black;
+  user-select: none;
+  :hover {
+    cursor: grab;
+  }
+  .highlightText {
+    color: red;
+    font-size: 11pt;
+  }
+
+  .highlightLink {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  p {
+    color: black;
+  }
+}
